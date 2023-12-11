@@ -555,7 +555,7 @@ content: "";
   flex-direction: column;
   text-align: left;
   position: relative;
-  height: 70vh;
+  height: 60vh;
   /*padding-top: 60px;*/
 }
 /* #hero span{
@@ -744,7 +744,8 @@ padding-bottom: 8px;
   width: 100%;
   height: 100px;
   position: relative;
-  margin-bottom: 100px;  
+  margin-bottom: 10px;  
+  margin-top: 10px;
 }
 
 .wave1 use {
@@ -1595,7 +1596,6 @@ __________________________________
   text-align: center;
   background-color: black;
   height: 430px;
-  /* font-family: 'Lovelo'; */
   font-family: 'Playfair Display', serif;
 }
 #countdownHead{
@@ -2475,7 +2475,7 @@ _____________________________
   width: 100%;
   height: 400px;
   color: white;
-  font-size: 46px;
+  font-size: 36px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -2874,8 +2874,6 @@ Slider
 /* ----------- SLIDER ------------ */
 .swiper{
   width: 100%;
-  padding-top: 10%;
-  padding-bottom: 10%;
 }
 
 .swiper-wrapper{
@@ -3630,18 +3628,19 @@ imagepicker
 /* testimonial */
 
 .testimonials {
-  padding: 100px 0;
 }
-.testimonials h3 {
-  margin-bottom: 20px;
+.testimonials h1 {
+  margin-bottom: 40px;
+  color: goldenrod;
 }
 .testimonials .card {
-  border-bottom: 3px #e50019 solid !important;
+  border-bottom: 3px  solid goldenrod!important;
   transition: 0.5s;
-  margin-top: 60px;
+  margin-bottom: 50px;
+  height: 350px;
 }
 .testimonials .card i {
-  background-color: #e50019;
+  background-color:  goldenrod;
   color: #ffffff;
   width: 75px;
   height: 75px;
@@ -3669,8 +3668,10 @@ imagepicker
   opacity: 1;
 }
 
+
+
+
 .locker {
-  outline: 1px solid #cdcdcd;
   outline-offset: -1px;
   position: relative;
   display: grid;
@@ -3689,9 +3690,10 @@ imagepicker
 .locker__container {
   position: sticky;
   position: -webkit-sticky;
-  top: 0;
+  top: 10%;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -3723,10 +3725,49 @@ imagepicker
 }
 
 #headingLocker{
-  font-size: 36px;
-  color: white;
+  font-size: 26px;
+  color:  #F3E29D;
 }
 #descLocker{
-  font-size: 30px;
+  font-size: 16px;
+  color: white;
+}
+
+.iconLocker{
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+
+.aboutCont{
+  width: 100%;
+  height: 100vh;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+.aboutInfoCont{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutVideoCont{
+  width: 100%;
+  height: 100vh;
+}
+#videoinabout{
+  width: 100%;
+  height: 100%;
+}
+#textinaboutHead{
+  font-size: 35px;
+  color: goldenrod;
+}
+
+#textinaboutDesc{
+  font-size: 25px;
   color: white;
 }
