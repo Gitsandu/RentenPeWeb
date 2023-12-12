@@ -1732,6 +1732,7 @@ _____________________________
   background-image: url(../img/question_mark.png);
   background-repeat: no-repeat;
   background-color: #000;
+  opacity: 0.5;
 }
 .faqBottom{
   background-color: black;
