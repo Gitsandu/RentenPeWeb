@@ -3771,3 +3771,39 @@ imagepicker
   font-size: 25px;
   color: white;
 }
+
+.footerBox{
+  width: 100%;
+  height: 100vh;
+  background-color: #0D5450;
+}
+
+.footerBoxTop{
+  height: 15%;
+  width: 100%;
+  background-color: white;
+}
+.footerBoxMiddle{
+  height: 70%;
+  width: 100%;
+  background-color: darkgrey;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footerBoxBottom{
+  height: 15%;
+  width: 100%;
+  background-color: white;
+}
+.footerBoxMiddleLeft{
+  background-color: pink;
+}
+.footerBoxMiddleleftmiddle{
+  background-color: yellow;
+}
+.footerBoxMiddlerightmiddle{
+  background-color: greenyellow;
+}
+.footerBoxMiddleRIght{
+  background-color: red;
+}
