@@ -288,3 +288,5 @@ function toggleExpansion(clickedElement) {
     // Toggle the clicked submain
     clickedElement.classList.toggle('expanded');
 }
+
+git 

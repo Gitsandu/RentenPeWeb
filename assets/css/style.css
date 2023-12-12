@@ -256,7 +256,7 @@ content: "";
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: black;
+  background: rgba(0, 0, 0, 0);
 }
 
 #header.header-transparent {
@@ -1221,7 +1221,7 @@ section {
 # MediaQuery
 --------------------------------------------------------------*/
 
-@media (max-width: 1440px) {
+
 	.infoRlogo{
 		width: 9vw;
 	}
@@ -1247,7 +1247,7 @@ section {
 		align-items: center;
 		height: 54vh;
 	}
-}
+
 
 @media (max-width: 992px) {
 	.infoRlogo{
@@ -2881,6 +2881,8 @@ Slider
 /* ----------- SLIDER ------------ */
 .swiper{
   width: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .swiper-wrapper{
@@ -2888,14 +2890,7 @@ Slider
   height: 35em;
   display: flex;
   align-items: center;
- 
-}
-.section-heading {
-  text-align: center;
-	color: #F3E29D;
-  margin-bottom: 50px;
-  font-size: 35px;
-  font-family: 'Playfair Display', serif;
+
 }
 
 .Ccard{
@@ -2918,7 +2913,7 @@ Slider
   align-items: center;
   width: 100%;
   height: 100px;
-  margin-top: 5px; 
+  margin-top: 5px;
 }
 
 .ground img{
@@ -2932,16 +2927,16 @@ Slider
     padding-bottom: 10%;
     border-right: 20px solid black;
     border-left:17px solid black ;
-  
+
   }
-  
+
   .swiper-wrapper{
     width: 100%;
     height: 35em;
     display: flex;
     align-items: center;
   }
-  
+
   .Ccard{
     width: 16em;
     height: 34em;
@@ -2949,21 +2944,21 @@ Slider
     align-items: center;
     flex-direction: column;
   }
-  
+
   #Ccardimage{
     width: 100%;
     height: 100%;
   }
-  
+
   .ground{
     display: flex;
     justify-content: start;
     align-items: center;
     width: 100%;
     height: 100px;
-    margin-top: -40px; 
+    margin-top: -40px;
   }
-  
+
   .ground img{
     height: 100%;
   }
@@ -2978,14 +2973,14 @@ Slider
     border-right: 26px solid black;
     border-left:26px solid black ;
   }
-  
+
   .swiper-wrapper{
     width: 100%;
     height: 30em;
     display: flex;
     align-items: center;
   }
-  
+
   .Ccard{
     width: 13em;
     height: 28em;
@@ -2993,12 +2988,12 @@ Slider
     align-items: center;
     flex-direction: column;
   }
-  
+
   #Ccardimage{
     width: 100%;
     height: 100%;
   }
-  
+
   .ground{
     display: flex;
     justify-content: start;
@@ -3006,12 +3001,11 @@ Slider
     width: 100%;
     height: 100px;
   }
-  
+
   .ground img{
     height: 100%;
   }
 }
-
 /*------------------------------
 review
 --------------------------------*/
@@ -3777,4 +3771,54 @@ imagepicker
 #textinaboutDesc{
   font-size: 25px;
   color: white;
+}
+
+.footerBox{
+  width: 100%;
+  height: 80vh;
+  background-color: black;
+}
+
+.footerBoxMiddle{
+  height: 70%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footerBoxBottom{
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.footerBoxMiddleLeft{
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.footerBoxMiddleleftmiddle{
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.footerBoxMiddlerightmiddle{
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.footerBoxMiddleRIght{
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
