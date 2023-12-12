@@ -289,4 +289,4 @@ function toggleExpansion(clickedElement) {
     clickedElement.classList.toggle('expanded');
 }
 
-function toggleExpansion(cli)
+git 
