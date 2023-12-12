@@ -1943,6 +1943,13 @@ _____________________________
   color: white;
   font-family: 'Open Sans', sans-serif;
 }
+.our-services-heading{
+  text-align: center;
+	color: #F3E29D;
+  padding-top: 80px;
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+}
 
 
 
@@ -3630,17 +3637,17 @@ imagepicker
 .testimonials {
 }
 .testimonials h1 {
-  margin-bottom: 40px;
-  color: goldenrod;
+  margin-bottom: 80px;
+  color:#F3E29D;
 }
 .testimonials .card {
-  border-bottom: 3px  solid goldenrod!important;
+  border-bottom: 3px  solid #F3E29D;;
   transition: 0.5s;
   margin-bottom: 50px;
   height: 350px;
 }
 .testimonials .card i {
-  background-color:  goldenrod;
+  background-color: #F3E29D;
   color: #ffffff;
   width: 75px;
   height: 75px;
@@ -3764,7 +3771,7 @@ imagepicker
 }
 #textinaboutHead{
   font-size: 35px;
-  color: goldenrod;
+  color: #F3E29D;
 }
 
 #textinaboutDesc{
