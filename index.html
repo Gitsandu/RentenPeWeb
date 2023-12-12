@@ -639,17 +639,17 @@
       <div class="footerBox">
         <div class="footerBoxMiddle">
           <div class="footerBoxMiddleLeft">
-              <div class="logo-section">
-                <h3><img src="assets/img/image15.png" alt="RentenPe Logo" class="infoRlogo"></h3>
-              </div>
-              <div>
-                <p>
-                  It’s the age of collaboration. Are you someone who is curious by nature and wants to know how we could
-                  work together to build something magical and futuristic!
-                 Drop in a line and let us explore the unexplored.
-                </p>
-              </div>
+            <div class="logo-section">
+              <h3><img src="assets/img/image15.png" alt="RentenPe Logo" class="infoRlogo"></h3>
             </div>
+            <div>
+              <p>
+                It’s the age of collaboration. Are you someone who is curious by nature and wants to know how we could
+                work together to build something magical and futuristic!
+                Drop in a line and let us explore the unexplored.
+              </p>
+            </div>
+          </div>
           <div class="footerBoxMiddleleftmiddle">
             <div class="Headings">
               <p>Services</p>
@@ -968,6 +968,11 @@
 
       paginatorIcons.forEach((icon, index) => {
         icon.addEventListener('click', function () {
+          // Remove the "active" class from all paginator icons
+          paginatorIcons.forEach(paginatorIcon => paginatorIcon.classList.remove('active'));
+
+          // Add the "active" class to the clicked paginator icon
+          icon.classList.add('active');
 
           // Remove the "active" class from all images and sections
           images.forEach(img => img.classList.remove('active'));
@@ -982,7 +987,6 @@
         });
       });
     });
-
 
   </script>
 </body>

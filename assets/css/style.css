@@ -3699,7 +3699,6 @@ imagepicker
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border-top: 1px solid #cdcdcd;
 }
 .locker__section:first-child {
   border: none;
@@ -3719,12 +3718,14 @@ imagepicker
 }
 
 #headingLocker{
-  font-size: 26px;
+  font-size: 36px;
   color:  #F3E29D;
+  text-align: center;
 }
 #descLocker{
-  font-size: 16px;
+  font-size: 20px;
   color: white;
+  text-align: justify;
 }
 
 .iconLocker{
@@ -3733,12 +3734,18 @@ imagepicker
   height: 50px;
 }
 
+.iconLocker.active {
+  width: 70px;
+  height: 70px;
+}
+
 
 .aboutCont{
   width: 100%;
   height: 100vh;
   display:grid;
   grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
 }
 .aboutInfoCont{
   width: 100%;
@@ -3759,11 +3766,14 @@ imagepicker
 #textinaboutHead{
   font-size: 35px;
   color: goldenrod;
+  text-align: center;
 }
 
 #textinaboutDesc{
-  font-size: 25px;
+  font-size: 20px;
   color: white;
+  text-align: justify;
+  
 }
 
 .footerBox{
